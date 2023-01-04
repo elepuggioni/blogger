@@ -6,6 +6,7 @@ import { createInertiaApp } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/vue.m';
+import CKEditor from '@ckeditor/ckeditor5-vue';
 import mdiVue from 'mdi-vue/v3';
 import * as mdijs from '@mdi/js';
 
@@ -21,6 +22,7 @@ createInertiaApp({
             .use(mdiVue, {
                 icons: mdijs
               })
+            .use( CKEditor )
             .mount(el);
     },
 });

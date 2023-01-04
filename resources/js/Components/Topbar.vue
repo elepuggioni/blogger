@@ -25,7 +25,7 @@ export default {
             <img class="object-scale-down h-16 w-50" src="/logo.png">
         </div>
         <div class="flex-1"></div>
-        <div class="self-center grid grid-rows-1 grid-cols-5 gap-2 mx-2 uppercase text-base no-underline text-gray-700">
+        <div class="self-center grid grid-rows-1 grid-cols-5 gap-2 mx-2 uppercase text-base no-underline font-bold text-gray-700">
             <Link
                 :href="route('home')"
                 class="text-sm text-center hover:underline"
@@ -48,8 +48,8 @@ export default {
             >
         </div>
         <div class="flex flex-row items-center mx-1 ">
-            <img class="object-scale-down h-7 w-7 mr-2" src="/storage/icons/insta.png">
-            <img class="object-scale-down h-7 w-7" src="/storage/icons/ticcotocco.png">
+            <img class="object-scale-down h-7 w-7 mr-2" src="/icons/insta.png">
+            <img class="object-scale-down h-7 w-7" src="/icons/ticcotocco.png">
         </div>
         <div class="searchbar self-center mx-3">
             <form class="flex" role="search" @submit.prevent="showAlert(this.searched)">

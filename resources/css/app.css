@@ -16,3 +16,23 @@
   color: rgb(51, 65, 85);
   min-height:100%;
 }
+
+@layer components {
+  .form-label {
+    @apply font-semibold uppercase text-xl pb-2;
+  }
+
+  .form-input {
+    @apply border-solid rounded-lg border-gray-300;
+  }
+
+  .btn{
+    @apply h-12 w-32 rounded-lg text-lg uppercase
+  }
+
+  .btn-primary{
+    color: #fff;
+	  background-color: #007bff;
+	  border-color: #007bff
+  }
+}

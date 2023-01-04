@@ -72,7 +72,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Roboto+Serif:opsz@8..144&display=swap');
 
 body{
-  background: url('/storage/images/banner.jpg') 0 0 fixed;
-  background-repeat: no-repeat;
+  background: url('/images/banner.jpg') no-repeat fixed;
+  background-size: 100%;
 }
 </style>

@@ -39,8 +39,8 @@ export default {
             >
         </div>
         <div class="grow flex flex-row items-center justify-center mx-auto ">
-            <img class="object-scale-down mx-1 h-7 w-7" src="/storage/icons/insta.png">
-            <img class="object-scale-down mx-1 h-7 w-7" src="/storage/icons/ticcotocco.png">
+            <img class="object-scale-down mx-1 h-7 w-7" src="/icons/insta.png">
+            <img class="object-scale-down mx-1 h-7 w-7" src="/icons/ticcotocco.png">
         </div>
         <div class="self-center mx-2 uppercase underline text-md text-gray-700 dark:text-gray-500">
             <Link

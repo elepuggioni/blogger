@@ -23,16 +23,16 @@ export default {
         <div class="flex flex-col min-h-full">
         <Topbar></Topbar>
         <div class="grow py-5 px-32 h-max">
-            <div class="title text-3xl text-justify w-full font-semibold mt-4 mb-4">
+            <div class="title text-3xl text-justify w-4/5 mx-auto font-semibold mt-4 mb-4">
             <h1>Heartbreaking: the worst person you know just made a great point</h1>
             </div>
-            <div class="tags w-full uppercase text-md mb-12">
+            <div class="tags text-justify w-4/5 mx-auto uppercase text-md mb-12">
                     Tag tag tag
             </div>
             <div class="">
-                <img class="main-image w-full mb-12" src="/storage/images/heartbreaking.jpg"/>
+                <img class="main-image text-justify w-4/5 mx-auto mb-12" src="/images/heartbreaking.jpg"/>
             </div>
-            <div class="content text-justify w-5/6 mx-auto mb-4">
+            <div class="content text-justify w-4/6 mx-auto mb-4">
                 <p class="article-content first-letter:text-5xl first-letter:mr-1 first-letter:float-left">A heartbreaking story is currently unfolding that’s sure to have devastating ramifications for years to come. Just moments ago, without any warning, the worst person you know just made a great point.
 <br><br>
 This is absolutely crushing news, and it’s unclear if recovery will ever be possible.

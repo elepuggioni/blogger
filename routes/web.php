@@ -24,6 +24,10 @@ Route::get('/article', function () {
     return Inertia::render('ArticlePage');
 })->name('article');
 
+Route::get('/article/new', function () {
+    return Inertia::render('NewArticle');
+})->name('newarticle');
+
 Route::redirect('/home', '/');
 
 Route::get('/blog', function () {
